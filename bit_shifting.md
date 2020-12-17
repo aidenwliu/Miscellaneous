@@ -1,6 +1,6 @@
-A bit shift moves each digit in a number's binary representation left or right. There are three main types of shifts:
+A **bit shift** moves each digit in a number's binary representation left or right. There are three main types of shifts:
   
-  Left Shifts
+  ## Left Shifts
     When shifting left, the most-significant bit is lost, and a 00 bit is inserted on the other end.
 
     The left shift operator is usually written as "<<".
@@ -12,7 +12,7 @@ A bit shift moves each digit in a number's binary representation left or right. 
     0010 is 2
     0100 is 4
 --------------------------------------------------------------------------------------------------------------------------------------------------
-  Logical Right Shifts
+  ## Logical Right Shifts
     When shifting right with a logical right shift, the least-significant bit is lost and a 00 is inserted on the other end.
     1011 >>> 1  →  0101
     1011 >>> 3  →  0001
@@ -22,7 +22,7 @@ A bit shift moves each digit in a number's binary representation left or right. 
     0101 is 5
     0010 is 2
 --------------------------------------------------------------------------------------------------------------------------------------------------
-  Arithmetic Right Shifts
+  ## Arithmetic Right Shifts
     When shifting right with an arithmetic right shift, the least-significant bit is lost and the most-significant bit is copied.
     Languages handle arithmetic and logical right shifting in different ways. 
     Java provides two right shift operators: >> does an arithmetic right shift and >>> does a logical right shift.
